@@ -41,7 +41,7 @@ The [player statisitcs visualisation notebook] contains plots and tables showcas
 
 An example is this plot which shows the variance in various statistics between different positions in football.
 
-<a href="https://github.com/dannyheaver/FPL_prediction_analysis/blob/main/VISUALISATION/IMAGES/mean_stats_per_position.png"><img src="https://github.com/dannyheaver/FPL_prediction_analysis/blob/main/VISUALISATION/IMAGES/mean_stats_per_position.png" title="source: snipboard.io" style="width: 500px"/></a>
+<a href="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/mean_stats_per_position.png"><img src="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/mean_stats_per_position.png" title="source: snipboard.io" style="width: 500px"/></a>
 
 ## Modeling
 
