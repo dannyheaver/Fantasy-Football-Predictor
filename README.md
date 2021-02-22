@@ -47,6 +47,11 @@ An example is this plot which shows the variance in various statistics between d
 
 Attempting to model a players upcoming points return as a regression problem proved unsuccessful. The exact performance of a player in a future game was affected by simply too many factors, many of which are random. In an attempt to resolve this, I turned it into a classification problem, where the label classes are point ranges. This proved successful and with the neural network model MLPClassifier, with the adam solver, returning an accuracy of 72%, 5.3% better than the baseline of 66.7%.
 
+Using a Paperspace machine operated through Pycharm Professional I was able to test multiple Classification Machine Learning algorithms using a cross-val score to evaluate each trained model. The resulting scores show that the the RandomForest and the MLPClassifier (with the 'sgd' solver) obtained similar scores. Through the nature of the predictions, I decided that the MLPClassifier was the best algorithm to use as there was a similar distribution of predicted classes in the blind data to the spread in the original dataset.
+
+<a href="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/model_r2_scores.png"><img src="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/model_r2_scores.png" title="source: snipboard.io" style="width: 500px"/></a>
+
+<a href="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/model_scores.png"><img src="https://github.com/dannyheaver/Fantasy_Football/blob/main/VISUALISATION/IMAGES/model_scores.png" title="source: snipboard.io" style="width: 500px"/></a>
 
 ## Prediction Tools
 
