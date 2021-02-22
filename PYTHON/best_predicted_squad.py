@@ -1,6 +1,7 @@
 import pandas as pd
 from itertools import combinations
 from collections import Counter
+import os
 import PYTHON.data_cleaning_functions as dcf
 
 
@@ -108,4 +109,5 @@ def get_best_squad(constraint, rows_to_check=30):
 
         fpl_squad["captain"] = [1 if prob == max(best_starting_11_df['prob_3']) else 0 for prob in fpl_squad['prob_3']]
 
-        fpl_squad.to_csv(path + 'best_squad_{con}_round{rou}.csv'.format(con=constraint, rou=next_round))
+        os.mkdir(path + '{}'.format(next_round))
+        fpl_squad.to_csv(path + '{rou}/best_squad_{con}.csv'.format(rou=next_round, con=constraint))
